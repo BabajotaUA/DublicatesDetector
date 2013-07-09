@@ -1,5 +1,5 @@
 #include "testdublicatesdetector.h"
 
-void TestDublicatesDetector::ololo()
+void TestDublicatesDetector::testFileSearcer()
 {
 }

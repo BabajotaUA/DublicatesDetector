@@ -13,7 +13,8 @@ public:
     void setDirectoryList(const QList<QString> &value);
 
     QList<QString> getFileList() const;
-    void setFileList(const QList<QString> &value);
+
+    void runFileSearch(QList<QString> directories);
 
 private:
     QList<QString> directoryList;

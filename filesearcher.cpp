@@ -1,4 +1,5 @@
 #include "filesearcher.h"
+#include <QDir>
 
 FileSearcher::FileSearcher(QObject *parent) :
     QObject(parent)
@@ -20,8 +21,8 @@ QList<QString> FileSearcher::getFileList() const
     return fileList;
 }
 
-void FileSearcher::setFileList(const QList<QString> &value)
+void FileSearcher::runFileSearch(QList<QString> directories)
 {
-    fileList = value;
+    foreach (auto dir, directories) {
+    }
 }
-
